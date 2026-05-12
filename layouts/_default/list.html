@@ -1,0 +1,29 @@
+{{ define "title" }}{{ .Title }} · {{ .Site.Title }}{{ end }}
+{{ define "main" }}
+
+<div class="hero-section" style="min-height: 100vh; padding: 2rem 1rem;">
+  <div class="page-wrap">
+    <a href="/" class="back-link"><span class="prompt-sign">$</span> cd ..</a>
+    <div class="terminal-window">
+      <div class="terminal-body">
+        <div class="dots-row">
+          <div class="terminal-dots">
+            <div class="terminal-dot red"></div>
+            <div class="terminal-dot yellow"></div>
+            <div class="terminal-dot green"></div>
+          </div>
+          <span class="terminal-path">~/projects</span>
+        </div>
+        <hr class="sep" />
+        {{ range $p := .Pages.ByWeight }}
+          <div style="padding: 1rem 0; border-bottom: 1px solid var(--card-border);">
+            <h3 style="margin-bottom: 0.25rem;"><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></h3>
+            <p style="color: var(--fg-muted); font-size: 0.9rem;">{{ $p.Params.description }}</p>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{{ end }}
