@@ -1,8 +1,8 @@
 ---
 title: "My Coach"
-description: "Full-stack fitness coaching platform with personalized workout programs, nutrition plans, and community features"
+description: "School project exploring full-stack development. I handled authentication and user management with Supabase."
 tech: ["HTML", "CSS", "JavaScript", "Supabase", "PostgreSQL"]
 github: "https://github.com/aliknis/my-coach"
 live: "https://aliknis.github.io/my-coach/"
-weight: 4
+weight: 3
 ---

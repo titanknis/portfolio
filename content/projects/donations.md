@@ -4,5 +4,5 @@ description: "Real-time donation campaign tracker for UGTE MONASTIR with live in
 tech: ["HTML", "Tailwind CSS", "JavaScript", "Supabase", "PostgreSQL"]
 github: "https://github.com/aliknis/donations"
 live: "https://aliknis.github.io/donations/"
-weight: 3
+weight: 2
 ---
