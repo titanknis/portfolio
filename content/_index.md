@@ -2,8 +2,12 @@
 title: "Home"
 ---
 
-Learning cloud-native tools, automation, and container workflows.
+Linux user. Runs NixOS on personal machines. Comfortable in the terminal and CLI.
 
-Exploring Docker, CI/CD, and Linux. Still learning.
+Uses Git and GitHub daily.
 
-Building things and figuring it out along the way.
+Interested in selfhosting.
+
+Some experience with Docker.
+
+Care about FOSS, security, and privacy.
